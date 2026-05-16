@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karbon Aktif untuk Water Treatment & Pengolahan Air | Panduan Industri</title>
+  <meta name="description" content="Panduan teknis karbon aktif (activated carbon) untuk water treatment, penyaringan air minum, dan industri. Jenis, spesifikasi iodine number, dan cara memilih karbon aktif yang tepat.">
+  <meta name="keywords" content="karbon aktif, activated carbon, arang aktif, filter air, water treatment, adsorpsi, iodine number">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sibaraindonesia.net/karbon-aktif/">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --char: #2d2d2d;
+      --deep: #111111;
+      --accent: #4fc3f7;
+      --gold: #ffd54f;
+      --text: #d0d0d0;
+      --muted: #777;
+      --surface: #1e1e1e;
+      --border: #333;
+    }
+    body {
+      font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+      background: var(--deep);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(160deg, #0a0a0a 0%, #1a2a1a 50%, #0a1a0a 100%);
+      border-bottom: 3px solid var(--accent);
+      padding: 3rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '●●●●●●●●●●●●●●●●●●●●';
+      position: absolute;
+      top: 1rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: rgba(79, 195, 247, 0.1);
+      font-size: 0.6rem;
+      letter-spacing: 0.5rem;
+    }
+    header .tag {
+      display: inline-block;
+      background: rgba(79, 195, 247, 0.1);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 0.3rem 1rem;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    header h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      color: #fff;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 1rem;
+    }
+    header p { color: var(--muted); max-width: 600px; margin: 0 auto; }
+    .container { max-width: 860px; margin: 0 auto; padding: 2.5rem 2rem; }
+    h2 {
+      font-size: 1.4rem;
+      color: var(--accent);
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 { font-size: 1.1rem; color: var(--gold); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; }
+    .type-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .type-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1.5rem;
+    }
+    .type-card h4 {
+      color: var(--accent);
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .type-card ul { padding-left: 1.2rem; font-size: 0.9rem; }
+    .type-card li { margin-bottom: 0.3rem; color: var(--muted); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.9rem;
+    }
+    th {
+      background: #1a2a1a;
+      color: var(--accent);
+      text-align: left;
+      padding: 0.75rem 1rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 2px solid var(--accent);
+    }
+    td { padding: 0.65rem 1rem; border-bottom: 1px solid var(--border); }
+    tr:hover td { background: rgba(79, 195, 247, 0.04); }
+    .highlight {
+      background: rgba(79, 195, 247, 0.08);
+      border-left: 3px solid var(--accent);
+      padding: 1rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+    ul.check li::before { content: '✓ '; color: var(--accent); }
+    ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+    li { margin-bottom: 0.4rem; }
+    .cta-box {
+      background: linear-gradient(135deg, #0a1a0a, #1a2a1a);
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      padding: 2rem;
+      margin: 3rem 0;
+      text-align: center;
+    }
+    .cta-box h3 { color: #fff; font-size: 1.3rem; margin-bottom: 0.75rem; }
+    .cta-box p { color: var(--muted); margin-bottom: 1.5rem; }
+    .cta-box a {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--deep);
+      padding: 0.75rem 2rem;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-radius: 4px;
+      transition: opacity 0.2s;
+    }
+    .cta-box a:hover { opacity: 0.85; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0; }
+    .tags a {
+      color: var(--muted);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 0.3rem 0.8rem;
+      font-size: 0.85rem;
+      border-radius: 2rem;
+      transition: all 0.2s;
+    }
+    .tags a:hover { border-color: var(--accent); color: var(--accent); }
+    footer {
+      background: #0a0a0a;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="tag">Media Adsorpsi Industri</div>
+  <h1>Karbon Aktif — Panduan Teknis Lengkap</h1>
+  <p>Jenis, spesifikasi iodine number, metilen biru, dan panduan aplikasi karbon aktif untuk water treatment, pengolahan udara, dan industri kimia Indonesia</p>
+</header>
+
+<div class="container">
+
+  <h2>Apa Itu Karbon Aktif?</h2>
+  <p>Karbon aktif (activated carbon / arang aktif) adalah material berpori dengan luas permukaan internal yang sangat besar — mencapai 500–1.500 m²/gram — yang dihasilkan melalui proses aktivasi fisik (steam) atau kimia pada bahan karbon seperti batok kelapa, batubara, atau kayu.</p>
+  <p>Mekanisme kerja karbon aktif adalah <strong>adsorpsi</strong>: molekul kontaminan (organik, klorin, bau, warna) menempel pada permukaan pori-pori karbon tanpa reaksi kimia. Ini menjadikan karbon aktif media "polishing" yang ideal untuk tahap akhir pengolahan air.</p>
+
+  <div class="highlight">
+    <strong>Fakta Teknis:</strong> 1 gram karbon aktif berkualitas baik memiliki luas permukaan setara dengan 1–3 lapangan sepak bola — itulah mengapa kapasitas adsorpsinya sangat tinggi.
+  </div>
+
+  <h2>Jenis Karbon Aktif</h2>
+  <div class="type-grid">
+    <div class="type-card">
+      <h4>🌰 Batok Kelapa (Coconut Shell)</h4>
+      <ul>
+        <li>Iodine number: 900–1200 mg/g</li>
+        <li>Pori mikro dominan (&lt;2 nm)</li>
+        <li>Ideal: air minum, filter gas</li>
+        <li>Hardness tinggi, abrasion rendah</li>
+        <li>Ramah lingkungan (renewable)</li>
+      </ul>
+    </div>
+    <div class="type-card">
+      <h4>🪨 Batubara (Coal-based)</h4>
+      <ul>
+        <li>Iodine number: 700–1000 mg/g</li>
+        <li>Pori meso &amp; makro lebih banyak</li>
+        <li>Ideal: IPAL, pengolahan limbah</li>
+        <li>Kapasitas adsorpsi molekul besar</li>
+        <li>Harga lebih ekonomis</li>
+      </ul>
+    </div>
+    <div class="type-card">
+      <h4>🌳 Kayu (Wood-based)</h4>
+      <ul>
+        <li>Iodine number: 800–1100 mg/g</li>
+        <li>Pori makro dominan</li>
+        <li>Ideal: dekolorisasi, industri gula</li>
+        <li>Kapasitas adsorpsi warna tinggi</li>
+        <li>Cocok aktivasi kimia (ZnCl₂, H₃PO₄)</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Bentuk Fisik Karbon Aktif</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Bentuk</th>
+        <th>Deskripsi</th>
+        <th>Aplikasi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>GAC</strong> (Granular)</td><td>Butiran 8×30 mesh, 12×40 mesh</td><td>Filter vessel, water treatment</td></tr>
+      <tr><td><strong>PAC</strong> (Powder)</td><td>Serbuk &lt;75 µm (200 mesh)</td><td>Dosis langsung ke air, IPAL</td></tr>
+      <tr><td><strong>Pellet / Extruded</strong></td><td>Silinder Ø 1.5–4 mm</td><td>Filter udara, gas purification</td></tr>
+      <tr><td><strong>Impregnated</strong></td><td>Dilapisi bahan kimia tertentu</td><td>Gas treatment spesifik (H₂S, Hg)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Parameter Kualitas Utama</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Satuan</th>
+        <th>Standar Baik</th>
+        <th>Fungsi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Iodine Number</td><td>mg/g</td><td>≥ 900</td><td>Kapasitas adsorpsi mikropori</td></tr>
+      <tr><td>Methylene Blue</td><td>mg/g</td><td>≥ 150</td><td>Kapasitas adsorpsi mesopori</td></tr>
+      <tr><td>Moisture Content</td><td>%</td><td>≤ 5</td><td>Kekeringan produk</td></tr>
+      <tr><td>Ash Content</td><td>%</td><td>≤ 5</td><td>Kandungan mineral inorganik</td></tr>
+      <tr><td>Hardness (Abrasion)</td><td>%</td><td>≥ 90</td><td>Ketahanan granul</td></tr>
+      <tr><td>Apparent Density</td><td>g/mL</td><td>0.45 – 0.55</td><td>Berat per volume</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Aplikasi dalam Water Treatment</h2>
+
+  <h3>Penghilangan Klorin &amp; Kloramin</h3>
+  <p>Karbon aktif batok kelapa sangat efektif menyerap sisa klorin bebas dan kloramin dari air PAM. EBCT (Empty Bed Contact Time) minimal 5–10 menit diperlukan untuk penghilangan klorin yang efektif.</p>
+
+  <h3>Pengurangan TOC &amp; Senyawa Organik</h3>
+  <p>Total Organic Carbon (TOC), pestisida, herbisida, dan senyawa organik lain dapat diturunkan secara signifikan dengan karbon aktif GAC dalam sistem filter bertekanan maupun gravitasi.</p>
+
+  <h3>Perbaikan Rasa &amp; Bau</h3>
+  <p>Senyawa penyebab bau seperti geosmin dan 2-methylisoborneol (MIB) dapat diadsorpsi efektif, menjadikan karbon aktif tahap wajib dalam produksi air minum kemasan dan air mineral.</p>
+
+  <h3>Pretreatment Reverse Osmosis</h3>
+  <p>Sebelum membran RO, karbon aktif digunakan untuk melindungi membran dari klorin (yang dapat merusaknya), serta menurunkan SDI (Silt Density Index).</p>
+
+  <div class="cta-box">
+    <h3>Cari Karbon Aktif untuk Proyek Water Treatment?</h3>
+    <p>Konsultasikan kebutuhan Anda — jenis, ukuran mesh, iodine number, dan volume — dengan tim teknis PT Sibara Bestari Indonesia.</p>
+    <a href="https://sibaraindonesia.net/karbon-aktif/" target="_blank" rel="noopener">
+      Lihat Produk Karbon Aktif →
+    </a>
+  </div>
+
+  <h2>Produk Media Filter Lainnya</h2>
+  <div class="tags">
+    <a href="https://sibaraindonesia.net/pasir-silika/">Pasir Silika</a>
+    <a href="https://sibaraindonesia.net/zeolit/">Zeolit</a>
+    <a href="https://sibaraindonesia.net/manganese-greensand/">Manganese Greensand</a>
+    <a href="https://sibaraindonesia.net/antrasit/">Antrasit</a>
+    <a href="https://sibaraindonesia.net/">Semua Produk Sibara</a>
+  </div>
+
+</div>
+
+<footer>
+  <p>Panduan teknis karbon aktif untuk referensi industri water treatment dan pengolahan air di Indonesia.</p>
+  <p style="margin-top:0.5rem;">Supplier: <a href="https://sibaraindonesia.net/karbon-aktif/">sibaraindonesia.net/karbon-aktif/</a></p>
+</footer>
+
+</body>
+</html>
